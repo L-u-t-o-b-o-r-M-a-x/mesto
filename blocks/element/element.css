@@ -1,0 +1,13 @@
+.element {
+  padding-bottom: 66px;
+}
+
+@media screen and (max-width: 601px) {
+
+  .element  {
+    padding-bottom: 50px;
+  }
+
+}
+
+

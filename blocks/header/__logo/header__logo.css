@@ -2,6 +2,17 @@
   display: flex;
   flex-shrink: 0;
   width: 142px;
-  min-height: 33px;
+  height: 33px;
 }
+
+@media screen and (max-width: 601px) {
+
+  .header__logo{
+    width: 104;
+    height: 24px;
+    padding-left: 8px;
+  }
+
+}
+
 

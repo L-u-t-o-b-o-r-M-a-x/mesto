@@ -1,0 +1,18 @@
+.popup__add-btn {
+  min-height: 50px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.popup__add-btn:hover {
+  opacity: 0.8;
+}
+

@@ -10,3 +10,12 @@
   color: #fff;
   background-color: #000000;
 }
+
+@media screen and (max-width: 601px) {
+
+  .page {
+   padding-top: 28px;
+   padding-bottom: 36px;
+  }
+
+}

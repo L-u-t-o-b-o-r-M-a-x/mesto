@@ -1,12 +1,14 @@
-.profile__text {
+.footer__text {
   margin: 0;
   font-size: 18px;
   line-height: 22px;
+  color: #545454;
 }
 
 @media screen and (max-width: 601px) {
 
-  .profile__text  {
+  .footer__text   {
+    padding-left: 22px;
     font-size: 14px;
     line-height: 17px;
   }
