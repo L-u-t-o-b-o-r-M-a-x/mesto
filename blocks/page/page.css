@@ -1,6 +1,7 @@
 .page {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   min-width: 320px;
   max-width: 880px;
   margin: 0 auto;
@@ -11,11 +12,19 @@
   background-color: #000000;
 }
 
+@media screen and (max-width: 962px) {
+
+  .page {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+}
+
 @media screen and (max-width: 601px) {
 
   .page {
-   padding-top: 28px;
-   padding-bottom: 36px;
+    padding: 28px 8px 36px;
   }
 
 }
