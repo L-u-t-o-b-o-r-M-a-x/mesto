@@ -1,5 +1,6 @@
 .popup__add-btn {
   min-height: 50px;
+  padding: 0;
   border: none;
   border-radius: 2px;
   font-weight: 400;
@@ -16,3 +17,12 @@
   opacity: 0.8;
 }
 
+@media screen and (max-width: 601px) {
+
+  .popup__add-btn {
+    min-height: 46px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+}

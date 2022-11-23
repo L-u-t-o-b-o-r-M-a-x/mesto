@@ -1,5 +1,6 @@
 .profile__info {
   position: relative;
+  max-width: 336px;
   padding-right: 42px;
 }
 
@@ -17,7 +18,8 @@
 @media screen and (max-width: 601px) {
 
   .profile__info  {
-   padding-right: 0;
+    max-width: 282px;
+    padding-right: 0;
   }
 
 }

@@ -12,19 +12,11 @@
   background-color: #000000;
 }
 
-@media screen and (max-width: 962px) {
-
-  .page {
-    padding-left: 19px;
-    padding-right: 19px;
-  }
-
-}
-
 @media screen and (max-width: 601px) {
 
   .page {
-    padding: 28px 8px 36px;
+    padding-top: 28px;
+    padding-bottom: 36px;
   }
 
 }

@@ -22,11 +22,11 @@
         </div>
         <div class="profile__info">
           <h1 class="profile__title">Жак-Ив Кусто</h1>
-          <button class="profile__edit-btn"></button>
+          <button class="profile__edit-btn" type="button"></button>
           <p class="profile__text">Исследователь океана</p>
         </div>
       </div>
-      <button class="profile__add-btn"></button>
+      <button class="profile__add-btn" type="button"></button>
     </section>
 
     <section class="element">
@@ -36,7 +36,7 @@
             <img class="card__image" src="./images/card-1.jpg" alt="Карачаевск">
             <div class="card__info">
               <h2 class="card__title">Карачаевск</h2>
-              <button class="card__btn"></button>
+              <button class="card__btn" type="button"></button>
             </div>
           </article>
         </li>
@@ -45,7 +45,7 @@
             <img class="card__image" src="./images/card-2.jpg" alt="Гора Эльбрус">
             <div class="card__info">
               <h2 class="card__title">Гора Эльбрус</h2>
-              <button class="card__btn"></button>
+              <button class="card__btn" type="button"></button>
             </div>
           </article>
         </li>
@@ -54,7 +54,7 @@
             <img class="card__image" src="./images/card-3.jpg" alt="Путишествия в Домбайях">
             <div class="card__info">
               <h2 class="card__title">Домбай</h2>
-              <button class="card__btn"></button>
+              <button class="card__btn" type="button"></button>
             </div>
           </article>
         </li>
@@ -63,7 +63,7 @@
             <img class="card__image" src="./images/card-4.jpg" alt="Горная река Сибири">
             <div class="card__info">
               <h2 class="card__title">Сибирь</h2>
-              <button class="card__btn"></button>
+              <button class="card__btn" type="button"></button>
             </div>
           </article>
         </li>
@@ -72,7 +72,7 @@
             <img class="card__image" src="./images/card-5.jpg" alt="Природа Алтая">
             <div class="card__info">
               <h2 class="card__title">Алтай</h2>
-              <button class="card__btn"></button>
+              <button class="card__btn" type="button"></button>
             </div>
           </article>
         </li>
@@ -81,7 +81,7 @@
             <img class="card__image" src="./images/card-6.jpg" alt="Долина Карачаево-черкесии">
             <div class="card__info">
               <h2 class="card__title">Карачаево-Черкесия</h2>
-              <button class="card__btn"></button>
+              <button class="card__btn" type="button"></button>
             </div>
           </article>
         </li>
@@ -95,17 +95,17 @@
 
   <section class="popup">
     <div class="popup__container">
-      <button class="popup__btn-close"></button>
+      <button class="popup__btn-close" type="button"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
-      <form class="popup__form" action="#" method="POST">
-        <input class="popup__input popup__input_name" type="text" name="name" required placeholder="Введите ваше имя">
-        <input class="popup__input popup__input_job" type="text" name="account" required placeholder="Опишите кто вы">
+      <form class="popup__form" action="#" method="POST" name="popup-edit-form">
+        <input class="popup__input popup__input_replacement_name" type="text" name="name" required placeholder="Введите ваше имя">
+        <input class="popup__input popup__input_replacement_job" type="text" name="account" required placeholder="Опишите кто вы">
         <button class="popup__add-btn" type="submit">Сохранить</button>
       </form>
     </div>
   </section>
 
-  <script src="./scripts/index.js"></script>
+  <script src="./scripts/index.js" defer></script>
 
 </body>
 

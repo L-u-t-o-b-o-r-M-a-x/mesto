@@ -24,7 +24,3 @@
         src: url('../fonts/inter-v12-latin_cyrillic-900.woff2') format('woff2');
         src: url('../fonts/inter-v12-latin_cyrillic-900.woff') format('woff');
   }
-
-  .hello {
-    font-weight: 900;
-  }
