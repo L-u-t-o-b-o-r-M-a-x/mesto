@@ -10,6 +10,7 @@
 @media screen and (max-width: 601px) {
 
   .profile__text  {
+    max-width: 100%;
     font-size: 14px;
     line-height: 17px;
   }
